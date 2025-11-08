@@ -1,0 +1,10 @@
+import { Card } from '@/components/ui/card'
+import SignInView from '@/modules/auth/ui/views/sign-in-view'
+import React from 'react'
+
+const page = () => {
+  //  console.log("Sign in page")
+  return <SignInView/>
+}
+
+export default page
